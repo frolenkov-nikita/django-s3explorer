@@ -15,3 +15,17 @@ class IndexView(TemplateView):
         )
 
         return cd
+
+# import boto3
+#
+#
+# client = boto3.client(
+#     'sts',
+#     aws_access_key_id='',
+#     aws_secret_access_key='',
+# )
+#
+#
+# resp = client.get_session_token(
+#     DurationSeconds=900,
+# )
